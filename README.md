@@ -1,24 +1,18 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# tax-payroll
+# About Application
 
-Things you may want to cover:
+This application will provides the employee details and also all employees tax details.
 
-* Ruby version
+# Actions
 
-* System dependencies
+Apart from the CRUD operations we have an action to show all employees tax details
 
-* Configuration
+`GET /employees/tax_deduction
+`
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+It will return json response in json format with:
+`
+employee code, first name, last name, yearly salary, tax amount, cess amount
+`
